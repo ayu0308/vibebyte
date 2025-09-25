@@ -1,3 +1,12 @@
+@keyframes move {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-move {
+  animation: move 2s infinite;
+}
 @theme inline {
   --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
     var(--delay, 0ms);
