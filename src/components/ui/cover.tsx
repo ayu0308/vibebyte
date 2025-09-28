@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useRef } from "react";
 import { SparklesCore } from "./sparkles";
 import { cn } from "../../lib/utils";
+import { IconRocket } from "@tabler/icons-react";
 
 
 export const Cover = ({
@@ -54,6 +55,12 @@ export const Cover = ({
             }}
             className="h-full w-full overflow-hidden absolute inset-0"
           >
+              <IconRocket
+              className="w-8 h-8 text-orange-400 animate-bounce -top-4 mt-10 ml-3.5"
+              style={{
+                transform: "rotate(-45deg)",
+              }}
+            />
             <motion.div
               animate={{
                 translateX: ["-50%", "0%"],

@@ -4,6 +4,8 @@ import { Card, CardDemo } from "../ui/card";
 import { Service } from "./Service";
 import { IconCloudDesign } from "../iconcarddesign";
 import { IconArrowAutofitUp, IconArrowUpRight } from "@tabler/icons-react";
+import { ContactUs } from "../ContactUs";
+import { Footer } from "../Footer";
 
 export const Home = () => {
   return (
@@ -31,6 +33,8 @@ export const Home = () => {
           <IconCloudDemo/>
         </div>
       </div>
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 };
